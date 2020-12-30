@@ -7,4 +7,7 @@ Esta aplicación consiste basicamente en pasar parametros por consola usando los
 
 NOTA IMPORTANTE: 
 
-Antes de ejecutar este programa, ejecutar el comando "npm install".
+Antes de ejecutar este programa, ejecutar el comando
+```
+npm install
+```
