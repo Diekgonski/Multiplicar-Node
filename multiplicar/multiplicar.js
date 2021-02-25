@@ -13,7 +13,7 @@ let listarTabla = (base, limite) => {
     for (let index = 1; index <= limite; index++) {
         console.log(`${base} * ${index} = ${base * index}`);
     }
-}
+};
 
 let crearArchivo = (base, limite = 10) => {
     return new Promise((resolve, reject) => {
@@ -43,10 +43,10 @@ let crearArchivo = (base, limite = 10) => {
         });
 
     });
-}
+};
 
 
 module.exports = {
     crearArchivo,
     listarTabla
-}
+};
